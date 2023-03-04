@@ -1,0 +1,666 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-size: 10px;
+}
+
+body {
+    background: #FCFAF9;
+    min-height: 100vh;
+    min-width: 37.5rem;
+    display: grid;
+    place-items: center;
+}
+
+main {
+    width: 37.5rem;
+    display: grid;
+    place-items: center;
+    background-color: #FFFFFF;
+}
+
+.hero1,
+.hero2,
+.blackbox {
+    display: none;
+}
+
+h1 {
+    height: 11rem;
+    width: 34.3rem;
+    left: 1.6rem;
+    top: 27.2rem;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 6rem;
+    line-height: 5.5rem;
+    text-transform: uppercase;
+    color: #151515;
+    margin: 3.2rem 1.6rem;
+}
+
+p {
+    height: 11.2rem;
+    width: 34.3rem;
+    left: 1.6rem;
+    top: 41.4rem;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #444444;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+}
+
+.firstP {
+    margin-bottom: 3.2rem;
+}
+
+.locationdiv {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 1.6rem;
+    left: -4.5rem;
+    top: 0rem;
+    background: linear-gradient(
+    to right,
+    #151515 0%,
+    #151515 79%,
+    #D5966C 79%,
+    #D5966C 100%
+  );
+ }
+
+.locationlink {
+    color: white;
+    padding: 2.4rem 3.5rem;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Big Shoulders Display;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 2.4rem;
+    letter-spacing: 0.364rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.rowright {
+    min-height: 2.4rem;
+    min-width: 0.8rem;
+    left: 24.4rem;
+    top: 58.2rem;
+    padding: 2.4rem;   
+}
+
+.grid1 {
+    margin: 12rem 1.6rem 2.5rem 1.6rem;
+}
+
+.grid11,
+.grid111 {
+    display: none;
+}
+
+.grid2 {
+    margin: 3.2rem 1.6rem 0rem 1.6rem; 
+}
+
+.grid22,
+.grid222 {
+    display: none;
+}
+
+.grid3 {
+    margin: 1.6rem; 
+}
+
+.grid33,
+.grid333 {
+    display: none;
+}
+
+.black {
+    height: 9rem;
+    width: 34.3rem;
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 4.5rem;
+    text-transform: uppercase;
+    color: #151515;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    margin: 0rem;
+}
+
+.white {
+    height: 9rem;
+    width: 29.5rem;
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 4.5rem;
+    text-transform: uppercase;
+    color: #FFFFFF;;
+    margin: 4.8rem 2.4rem 0rem 2.4rem;
+}
+
+.secondP {
+    width: 34.3rem;
+    height: 11.2rem;
+    top: 11.1rem;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #444444;
+    margin-top: 2.1rem;
+}
+
+.thirdP {
+    width: 29.5rem;
+    height: 8.4rem;
+    top: 11.4rem;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #FFFFFF;
+    margin: 2.4rem 2.4rem 4.7rem 2.4rem;
+}
+
+.blackdiv {
+    width: 34.3rem;
+    height: 29.3rem;
+    top: 206.2rem;
+    left: 1.6rem;
+    margin: 0rem 1.6rem 12rem 1.6rem;
+    background-color: #151515;
+}
+
+footer {
+    width: 37.5rem;
+    background: #151515;
+}
+
+.footerlogo {
+    margin-top: 4.8rem;
+    margin-left: 3.2rem;
+}
+
+.footerP {
+    width: 31.1rem;
+    height: 10.4rem;
+    top: 7.8rem;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #FFFFFF;
+    margin: 3.8rem 3.2rem;
+    padding: 0rem;
+}
+
+.fbicon {
+    margin-left: 3.2rem;
+    margin-bottom: 4.8rem;
+}
+
+.insticon {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 4.8rem;
+}
+
+.twicon {
+    margin-bottom: 4.8rem;
+}
+
+.imglink {
+    text-decoration: none;
+}
+
+
+/* Breakpoint at 768px - Tablet*/
+
+@media screen and (min-width: 768px) {
+
+    body {
+        min-width: 76.8rem;
+    }
+
+    main {
+        width: 76.8rem;
+        display: grid;
+        grid-auto-columns: 1fr 1fr;
+        row-gap: 1.1rem;
+        column-gap: 1.1rem;
+        padding-bottom: 12em;
+        margin: 0rem;
+    }
+
+    .hero1 {
+        display: inline-block;
+        grid-column: 1;
+        grid-row: 1;
+        margin-bottom: 12rem;
+    }
+
+    .hero,
+    .hero2 {
+        display: none;
+    }
+
+    h1,
+    .firstP,
+    .locationdiv {
+        position: relative;;
+        grid-column: 2;
+        grid-row: 1;
+    } 
+
+    h1 {
+        height: 13rem;
+        width: 32.9rem;
+        left: -9.3rem;
+        top: -20.5rem;
+        font-size: 7rem;
+        line-height: 6.5rem;
+        padding: 0rem;
+    }
+
+    .firstP {
+        width: 33.9rem;
+        left: -9.3rem;
+        top: -4.4rem;
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    .locationdiv {
+        left: -13rem;
+        top: 10.6rem;
+        margin: 0rem;
+    }
+
+    .black,
+    .secondP {
+        position: relative;;
+        grid-column: 1;
+        grid-row: 2;        
+    }
+
+    .black {
+        height: 13.5rem;
+        width: 22.3rem;
+        left: -6.7rem;
+        top: -10rem;
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    .secondP {
+        height: 14rem;
+        width: 22.3rem;
+        left: -6.7rem;
+        top: 5.9rem;
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    .grid11 {
+        display: inline-block;
+        position: relative;
+        grid-column: 2;
+        grid-row: 2;
+        top: 0rem;
+        right: 11.7rem;
+        margin: 0rem; 
+    }
+
+    .grid1,
+    .grid111 {
+        display: none;
+    }
+
+    .grid22 {
+        display: inline-block;
+        position: relative;
+        grid-column: 1;
+        grid-row: 3/5; 
+        top: 0rem;
+        right: -2.1rem;
+        margin: 0rem; 
+    }
+
+    .grid2,
+    .grid222 {
+        display: none;
+    }
+
+    .grid33 {
+        display: inline-block;
+        position: relative;
+        grid-column: 2;
+        grid-row: 3; 
+        top: 0rem;
+        left: -5.8rem;
+        margin: 0rem; 
+    }
+
+    .grid3,
+    .grid333 {
+        display: none;
+    }
+
+    .blackdiv {
+        position: relative;
+        grid-column: 2;
+        grid-row: 4; 
+        height: 39.6rem;
+        width: 28rem;
+        left: -5.8rem;
+        top: 0rem;
+        margin: 0rem;
+    }
+
+    .white {
+        height: 9rem;
+        width: 22.3rem;
+        font-size: 5rem;
+        line-height: 4.5rem;
+        margin-top: 8.5rem;
+        margin-left: 2.9rem;
+    }
+
+    .thirdP {
+        height: 11.2rem;
+        width: 22.3rem;
+        left: 0rem;
+        top: 11.4rem;
+        margin-left: 2.9rem;
+
+    }
+       
+    footer {
+        width: 76.8rem;
+        height: 21.6rem;
+        left: 0rem;
+        top: 207.1rem;
+
+    }
+
+    .footerlogo {
+        display: inline-block;
+        position: relative;
+        top: -4rem;
+        left: 1.2rem;
+    }
+    
+    .footerP {
+        display: inline-block;
+        position: relative;
+        width: 28.1rem;
+        left: 5rem;
+        top: 1.5rem;
+    }
+    
+    .iconsdiv {
+        display: inline-block;
+        position: relative;
+        top: -2rem;
+        left: 9.5rem;
+    }    
+
+     
+/* Breakpoint at 1439px - Desktop (as in the challenge)*/
+
+/* But I broke it at 1100px to take effect on my laptop :)*/
+
+@media screen and (min-width: 1100px) {
+    body {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
+        padding-bottom: 18em;
+        row-gap: 3rem;
+    }
+
+    .hero2 {
+        display: inline-block;
+        grid-column: 2;
+        grid-row: 1;
+        margin-bottom: 18rem;
+
+    }
+
+    .hero,
+    .hero1 {
+        display: none;
+    }
+
+
+    .firstP,
+    .locationdiv {
+        position: relative;
+        grid-column: 3;
+        grid-row: 1;
+    } 
+
+    .blackbox {
+        display: inline-block;
+        position: relative;
+        height: 80rem;
+        width: 43.5rem;
+        left: -1.3rem;
+        top: -9rem;
+        background: #151515;
+        grid-column: 1;
+        grid-row: 1; 
+    }
+
+    h1 {
+        display: inline-block;
+        grid-column: 1;
+        grid-row: 1; 
+        position: relative;
+        height: 17.6rem;
+        width: 45rem;
+        left: 14.2rem;
+        top: -21rem;
+        font-size: 9.6rem;
+        line-height: 8.8rem;
+        padding: 0rem;
+        background: linear-gradient(90deg, rgba(255,255,255,1) 64%, rgba(0,0,0,1) 64%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        z-index: 1;
+    }
+
+    .firstP {
+        height: 16rem;
+        width: 35rem;
+        left: -9.3rem;
+        top: -23rem;
+        font-size: 2.2rem;
+        line-height: 3.2rem;
+        padding: 0rem;
+        margin: 0rem;
+     }
+
+    .locationdiv {
+        left: -13rem;
+        top: -4.5rem;
+        margin: 0rem;
+    }
+
+    .black,
+    .secondP {
+        grid-column: 1;
+        grid-row: 2;        
+    }
+
+    .black {
+        height: 12rem;
+        width: 35rem;
+        left: 8rem;
+        top: -9rem;
+        font-size: 6rem;
+        line-height: 6rem;
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    .secondP {
+        height: 12.8rem;
+        width: 35rem;
+        left: 8rem;
+        top: 5.5rem;
+        font-size: 2.2rem;
+        line-height: 3.2rem;
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    .grid111 {
+        display: inline-block;
+        position: relative;
+        grid-column: 2;
+        grid-row: 2;
+        top: 0rem;
+        right: -23rem;
+        margin: 0rem; 
+    }
+
+    .grid1,
+    .grid11 {
+        display: none;
+    }
+
+    .grid222 {
+        display: inline-block;
+        position: relative;
+        grid-column: 1;
+        grid-row: 3/5; 
+        top: 0rem;
+        right: -22rem;
+        margin: 0rem; 
+    }
+
+    .grid2,
+    .grid22 {
+        display: none;
+    }
+
+    .grid333 {
+        display: inline-block;
+        position: relative;
+        grid-column: 2;
+        grid-row: 3; 
+        top: 0rem;
+        left: 32.5rem;
+        margin: 0rem; 
+    }
+
+    .grid3,
+    .grid33 {
+        display: none;
+    }
+
+    .blackdiv {
+        position: relative;
+        grid-column: 2;
+        grid-row: 4; 
+        width: 44.5rem;
+        height: 37.7rem;
+        left: 32.5rem;
+        top: 0rem;
+        margin: 0rem;
+    }
+
+    .white {
+        height: 9rem;
+        width: 22.3rem;
+        font-size: 5rem;
+        line-height: 4.5rem;
+        margin-top: 6.5rem;
+        margin-left: 4.8rem;
+    }
+
+    .thirdP {
+        height: 11.2rem;
+        width: 22.3rem;
+        left: 0rem;
+        top: 11.4rem;
+        margin-top: 3.2rem;
+        margin-left: 4.8rem;
+
+    }
+       
+    footer {
+        width: 100%;
+        height: 24.4rem;
+        left: 0rem;
+        top: 207.1rem;
+
+    }
+
+    .footerlogo {
+        display: inline-block;
+        position: relative;
+        top: 2rem;
+        left: 12rem;
+        margin: 0rem;
+    }
+    
+    .footerP {
+        display: inline-block;
+        position: relative;
+        width: 43rem;
+        height: 8.4rem;
+        left: 29rem;
+        top: 4rem;
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+    }
+    
+    .iconsdiv {
+        display: inline-block;
+        position: relative;
+        top: 4rem;
+        left: 50rem;
+    }   
+
+    .locationdiv:hover {
+        background: linear-gradient(
+        to right,
+        #D5966C 0%,
+        #D5966C 79%,
+        #151515 79%,
+        #151515 100%
+      );
+     }
+
+     .fbicon:hover,
+     .insticon:hover,
+     .twicon:hover {
+        filter: invert(68%) sepia(19%) saturate(940%) hue-rotate(341deg) brightness(190%) contrast(85%);
+     }
+}

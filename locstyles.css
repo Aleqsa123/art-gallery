@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-size: 10px;
+}
+
+body {
+    background: #FCFAF9;
+    min-height: 100vh;
+    min-width: 37.5rem;
+    display: grid;
+    place-items: center;
+}
+
+main {
+    width: 37.5rem;
+    display: grid;
+    place-items: center;
+}
+
+.map {
+    height: 57.4rem;
+    width: 37.5rem;
+    background-image: url(./assets/mobile/image-map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homediv {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26.4rem;
+    background: linear-gradient(
+    to right,
+    #D5966C 0%,
+    #D5966C 21%,
+    #151515 21%,
+    #151515 100%
+  );
+ }
+
+ .homelink {
+    flex: 1 auto;
+    display: inline-block;
+    height: 2.4rem;
+    width: 14.1rem;
+    left: 3.2rem;
+    top: 2.4rem;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.363636rem;
+    color: #FFFFFF; 
+    text-transform: uppercase;  
+    text-decoration: none; 
+    margin-left: 3.2rem;
+ }
+
+.rowleft {
+    min-height: 2.4rem;
+    min-width: 0.8rem;
+    left: 3.2rem;
+    top: 4.8rem;
+    padding: 24px;  
+}
+
+ .blackdiv {
+    width: 37.5rem;
+    height: 49.3rem;
+    background-color: #151515;
+ }
+
+ h1 {
+    height: 4.5rem;
+    width: 34.3rem;
+    left: 1.6rem;
+    top: 4.8rem;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 4.5rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 4.8rem 1.6rem;
+ }
+
+ h2 {
+    height: 3.2rem;
+    width: 34.3rem;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    text-transform: uppercase;
+    color: #D5966C;
+    margin: 0rem 0rem 2rem 1.6rem;
+}
+
+.address {
+    width: 34.3rem;
+    height: 8.4rem;
+    top: 5.2rem;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 1.6rem;
+}
+
+.hour {
+    height: 14rem;
+    width: 34.3rem;
+    top: 15.6rem;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #FFFFFF;
+    margin: 2rem 1.6rem 5.6rem 1.6rem;
+}
+
+ footer {
+    height: 33.6rem;
+    width: 37.5rem;
+    left: 0rem;
+    top: 104.3rem;
+    background-color: #D5966C;
+ }
+
+ .footerlogo {
+    margin-top: 4.8rem;
+    margin-left: 3.2rem;
+}
+
+ footer p {
+    height: 10.4rem;
+    width: 31.1rem;
+    left: 0rem;
+    top: 7.8rem;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #151515;
+    margin: 3.8rem 3.2rem;
+    padding: 0rem;
+ }
+
+ .fbicon,
+ .insticon,
+ .twicon {
+    filter: brightness(0%);
+}
+
+.fbicon {
+    margin-left: 3.2rem;
+    margin-bottom: 4.8rem;
+}
+
+.insticon {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 4.8rem;
+}
+
+.twicon {
+    margin-bottom: 4.8rem;
+}
+
+.imglink {
+    text-decoration: none;
+}
+
+/* Breakpoint at 768px - Tablet*/
+
+@media screen and (min-width: 768px) {
+
+    body {
+        min-width: 76.8rem;
+    }
+
+    main {
+        width: 76.8rem;
+        display: grid;
+        grid-auto-columns: 1fr 1fr;
+        column-gap: 0rem;
+        row-gap: 0rem;
+        margin: 0rem;
+    }
+
+    .map {
+        width: 76.8rem;
+        height: 60rem;
+        background-image: url(./assets/tablet/image-map.png);
+        background-repeat: no-repeat;
+    }
+
+    .homediv {
+        margin-left: 3.9rem;
+    }
+
+    .blackdiv {
+        height: 43.6rem;
+        width: 76.8rem;
+        left: 0rem;
+        top: 60rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    }
+
+    h1 {
+        grid-column: 1;
+        grid-row: 1;
+        height: 10rem;
+        width: 22.3rem;
+        left: 3.9rem;
+        top: 8.8rem;
+        font-size: 5.5rem;
+        line-height: 5rem;
+        margin-top: 8.8rem;
+        margin-left: 3.9rem;
+        padding: 0rem;
+    }
+
+    h2 {
+        position: relative;
+        grid-column: 2;
+        grid-row: 1;
+        width: 35rem;
+        left: 6.8rem;
+        top: 8.8rem;
+        margin: 0rem;
+    }
+
+    .address {
+        position: relative;
+        grid-column: 2;
+        grid-row: 1;
+        width: 39.8rem;
+        top: 14rem;
+        left: 6.8rem;
+        text-decoration: none;
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    .hour {
+        position: relative;
+        grid-column: 2;
+        grid-row: 2;
+        height: 11.2rem;
+        width: 39.8rem;
+        top: -3.5rem;
+        left: 6.8rem;
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    footer {
+        height: 21.6rem;
+        width: 76.8rem;
+        left: 0rem;
+        top: 103.6rem;
+        padding: 0rem;
+    }
+
+    .footerlogo {
+        display: inline-block;
+        position: relative;
+        top: 0rem;
+        left: 4rem;
+        margin: 0rem;
+    }
+
+    footer p {
+        display: inline-block;
+        position: relative;
+        width: 28.1rem;
+        left: 9.5rem;
+        top: 5.6rem;
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    .iconsdiv {
+        display: inline-block;
+        position: relative;
+        top: 3rem;
+        left: 17.5rem;
+    }
+    
+/* Breakpoint at 1100px - Desktop*/
+
+@media screen and (min-width: 1100px) {
+    body {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+        display: grid;
+        margin-bottom: 18em;
+        row-gap: 3rem;
+        column-gap: 0rem;
+        row-gap: 0rem;
+        margin: 0rem;
+    }
+
+    .map {
+        width: 144rem;
+        height: 68.5rem;
+        background-image: url(./assets/desktop/image-map.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .homediv {
+        margin-left: 15.6rem;
+    }
+
+    .blackdiv {
+        height: 54.8rem;
+        width: 144rem;
+        left: 0rem;
+        top: 60rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(50rem, 1fr));
+    }
+
+    h1 {
+        grid-column: 1;
+        grid-row: 1;
+        height: 14rem;
+        width: 35rem;
+        margin-left: 16.5rem;
+        margin-top: 10.4rem;
+        font-size: 7rem;
+        line-height: 7rem;
+        padding: 0rem;
+    }
+
+    h2 {
+        position: relative;
+        grid-column: 2;
+        grid-row: 1;
+        width: 35rem;
+        height: 3.6rem;
+        font-size: 3.6rem;
+        line-height: 3.6rem;
+        left: 12rem;
+        top: 10.4rem;
+        margin: 0rem;
+    }
+
+    .address {
+        position: relative;
+        grid-column: 2;
+        grid-row: 1;
+        width: 44.5rem;
+        height: 9.6rem;
+        top: 17rem;
+        left: 12rem;
+        font-size: 2.2rem;
+        line-height: 3.2rem;
+        text-decoration: none;
+        padding: 0rem;
+    }
+
+    .hour {
+        position: relative;
+        grid-column: 2;
+        grid-row: 2;
+        height: 12.8rem;
+        width: 54rem;
+        left: 12rem;
+        top: -6.2rem;
+        font-size: 2.2rem;
+        line-height: 3.2rem;
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    footer {
+        height: 24.4rem;
+        width: 144rem;
+        left: 0rem;
+        top: 103.6rem;
+        padding: 0rem;
+    }
+
+    .footerlogo {
+        display: inline-block;
+        position: relative;
+        height: 5.8rem;
+        width: 16rem;
+        top: 6rem;
+        left: 16.5rem;
+        margin: 0rem;
+    }
+
+    footer p {
+        display: inline-block;
+        position: relative;
+        width: 43rem;
+        height: 8.4rem;
+        left: 30rem;
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    .iconsdiv {
+        display: inline-block;
+        position: relative;
+        top: 8rem;
+        left: 53rem;
+    }
+
+    .homediv:hover {
+        background: linear-gradient(
+        to right,
+        #151515 0%,
+        #151515 21%,
+        #D5966C 21%,
+        #D5966C 100%
+      );
+     }
+
+     .fbicon:hover,
+     .insticon:hover,
+     .twicon:hover {
+        filter: none;
+     }
+}
