@@ -38,8 +38,8 @@ Unfortunately I was not able to make full version screenshots because of the siz
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Aleqsa123/art-gallery)
-- Live Site URL: [Add live site URL here](https://aleqsa123.github.io/art-gallery/)
+- Solution URL: [https://github.com/Aleqsa123/art-gallery]
+- Live Site URL: [https://aleqsa123.github.io/art-gallery/]
 
 ## My process
 
