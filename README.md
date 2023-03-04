@@ -50,9 +50,6 @@ Unfortunately I was not able to make full version screenshots because of the siz
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 
 ### What I learned
